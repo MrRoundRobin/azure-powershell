@@ -18,7 +18,7 @@
   <ItemGroup>
     <PackageReference Include="WindowsAzure.Storage" Version="9.3.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.Azure.Storage.DataMovement" Version="0.8.1" PrivateAssets="All"/>
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <Target Name="CopyProjectReferencesToPackage" DependsOnTargets="ResolveReferences">
